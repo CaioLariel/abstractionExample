@@ -8,6 +8,11 @@ package classe_abstrata1;
  *
  * @author caio.gflima
  */
-public class Pessoa {
+abstract class Pessoa {
+    //atributos
+    String nome, cpf, rg;
     
+    public abstract String retornaDados();
+    
+    //classes abastratatas tem métodos abstratos
 }
