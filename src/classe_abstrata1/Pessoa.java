@@ -4,10 +4,8 @@
  */
 package classe_abstrata1;
 
-/**
- *
- * @author caio.gflima
- */
+//classes abstratas sao ideias para criarem modelos.
+
 abstract class Pessoa {
     //atributos
     String nome, cpf, rg;
