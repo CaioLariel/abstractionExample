@@ -21,9 +21,9 @@ public class Aluno extends Pessoa {
         String dados = "";
         
         //dados presentes na classe abstrata, acessiveis na classe que herda
-        dados += "Nome:" + nome + "\n";
-        dados += "RG:" + rg + "\n";
-        dados += "CPF :" + cpf + "\n";
+        dados += "Nome:" + getNome() + "\n";
+        dados += "RG:" + getRg() + "\n";
+        dados += "CPF :" + getCpf() + "\n";
         return dados;
     }
 }

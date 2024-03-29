@@ -8,9 +8,35 @@ package classe_abstrata1;
 
 abstract class Pessoa {
     //atributos
-    String nome, cpf, rg;
+    private String nome;
+    private String cpf;
+    private String rg;
     
     public abstract String retornaDados();
     
     //classes abastratatas tem métodos abstratos
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public String getRg() {
+        return rg;
+    }
+
+    public void setRg(String rg) {
+        this.rg = rg;
+    }
 }

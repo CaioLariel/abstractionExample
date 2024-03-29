@@ -14,13 +14,13 @@ public class Principal_Abstrata {
         //Instancia do primeiro aluno
         Aluno a1 = new Aluno();
         
-        a1.nome = "Caio Gabriel";
-        a1.rg = "36.453.783-5";
-        a1.cpf = "345.424.345-6";
+        a1.setNome("Caio Gabriel");
+        a1.setRg("36.453.783-5");
+        a1.setCpf("345.424.345-6");
         
         //imprimindo dados do aluno
         
-        System.out.println("\t - Dados do aluno: " + a1.nome + " - \n");
+        System.out.println("\t - Dados do aluno: " + a1.getNome() + " - \n");
         System.out.println(a1.retornaDados());
     }
 }
